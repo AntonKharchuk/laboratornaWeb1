@@ -1,0 +1,51 @@
+:root{
+	--padd: 15px;
+}
+
+*, *:before, *:after{
+	box-sizing: inherit;
+}
+html {
+	box-sizing: border-box;
+}
+table{
+	background-color: rgb(161, 158, 153);
+}
+table, th, td {
+  border: 1px solid black;
+}
+.back {
+	background-color: darkgray;
+}
+.page {
+	margin: 0 auto;
+	max-width: 1200px;
+	background-color: rgb(112, 87, 95);
+	padding: var(--padd);
+}
+.container {
+	display: flex;
+	flex-wrap: wrap;
+}
+.title-and-group {
+	width: calc(80%);
+	display: block;
+	margin: 0 auto;
+}
+.title-and-group h3{
+	padding-top: 10px;
+}
+
+.foto {
+	width: calc(20%);
+	max-width: 150px;
+	max-height: 200px;
+}
+.labs th:hover {
+	background-color: ghostwhite;
+}
+
+.filling:hover {
+	background-color: cornsilk;
+}
+
